@@ -1,6 +1,6 @@
 # Data-Structure-and-Algorithm-Lab-2
 
-Lab Exercises: 
+Lab Activity: Python Review
 1. Calculate Powers using Recursion
 2. Cube of Integers
 3. Hollow Square
