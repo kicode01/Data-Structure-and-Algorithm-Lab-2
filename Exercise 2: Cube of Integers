@@ -1,0 +1,11 @@
+#### Compute for the cube of integers. 
+
+# Input the size of the array.
+size = int(input("Enter the size of the array: "))
+
+# Input the elements of the array separated by space and convert them to a list of integers.
+elements = list(map(int, input("Enter the elements separated by space: ").split()))
+
+# Iterate through each element in the list and print its cube.
+for element in elements:
+    print(element ** 3)
