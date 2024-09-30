@@ -1,0 +1,23 @@
+#### A teacher named Mrs. Rivera who loved making math fun for her students. One day, a student named Mia asked how to calculate powers, like (2^7). Mrs. Rivera explained, “Imagine you need to multiply 2 by itself seven times. We can solve this using a python code utilizing  special method called recursion to solve this,” 
+#### Can you help the class of Mrs. Rivera by providing the recursive method to calculate powers?
+
+# Define the base number.
+base = 2
+
+# Define the exponent.
+exponent = 7
+
+# Recursive function to calculate power.
+def recursive_power(base, exponent):
+    # Base case: if the exponent is 0, return 1.
+    if exponent == 0:
+        return 1
+    else:
+        # Recursive case: multiply the base by the result of the function with the exponent decreased by 1.
+        return base * recursive_power(base, exponent - 1)
+
+# Calculate the result using the recursive function.
+result = recursive_power(base, exponent)
+
+# Print the result.
+print(result)
