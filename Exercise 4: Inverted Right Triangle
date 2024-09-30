@@ -1,0 +1,9 @@
+#### Generate an inverted right triangle of height, n.
+
+# Input the height of the triangle.
+n = int(input("Enter the height of the triangle: "))
+
+# Generate the inverted right triangle.
+for i in range(n, 0, -1):
+    # Print '*' i times for the current row.
+    print('*' * i)
