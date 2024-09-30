@@ -1,0 +1,13 @@
+#### Generate a hollow square based on the + integer input side length, n.
+
+# Input the side length of the square.
+n = int(input("Enter the side length of the square: "))
+
+# Generate the hollow square.
+for i in range(n):
+    # Print the first and last row completely filled with 'x'.
+    if i == 0 or i == n - 1:
+        print('x' * n)
+    else:
+        # Print the middle rows with 'x' at the start and end, and spaces in between.
+        print('x' + ' ' * (n - 2) + 'x')
